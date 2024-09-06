@@ -1,0 +1,14 @@
+/* CSS for animations and styling */
+.fade-in {
+    animation: fadeIn 2s; /* Apply a fade-in animation over 2 seconds */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Start with invisible */
+    }
+    to {
+      opacity: 1; /* Transition to fully visible */
+    }
+  }
+  
